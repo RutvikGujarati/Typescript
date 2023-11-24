@@ -1,11 +1,14 @@
+"use strict";
 /* Interface and Type is as much as similar ..  */
-var Employee = {
+const Employee = {
     project: "POrtfolio", lang: "javascript", Weight: 46, langUsage: 4,
-    Testing: function () {
+    Testing: () => {
         // let sum = a+b;
         // return sum;
         return 4;
-    }
+    },
+    Name: "gujarati",
+    security: "password" // Reopen interface uses in the same const Variable
 };
 console.log(Employee);
 console.log(Employee.Testing);
@@ -14,3 +17,4 @@ console.log(Employee.Testing);
 //     console.log(Employee.lang)
 // }
 // calling()
+console.log();

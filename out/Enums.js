@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var obj = {
+const obj = {
     study: 10,
 };
-var selected = 2 /* After10th.Science */;
-var selection = obj.study;
+const selected = 2 /* After10th.Science */;
+const selection = obj.study;
 console.log(selected);
 console.log(selection);

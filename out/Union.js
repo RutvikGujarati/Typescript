@@ -1,4 +1,5 @@
-var mergeDataType = "name" || 8493493; // You can declare multiple types using union operator...
+"use strict";
+const mergeDataType = "name" || 8493493; // You can declare multiple types using union operator...
 //mergeDataType = 433  // caannot declare because it is const
 console.log(mergeDataType);
 function DoubleData(id) {
@@ -12,7 +13,7 @@ function DoubleData(id) {
     }
 }
 //Own type definataion
-var Movie;
+let Movie;
 Movie = "Action";
 Movie = "Horror";
 //Movie= 372 // you don't do this
