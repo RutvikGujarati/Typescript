@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Student1 = {
-    nmae: "Rutvik",
+const Student1 = {
+    name: "Rutvik",
     Enroll: 211290107001,
     surname: "Gujarati"
 };
-var createStd = function (std) { };
+const createStd = (std) => { };
 createStd({ name: "rutvik", surname: "gujarati", mobileNumber: 392832 });
-var setUser = function (name, isPaid) { };
+const setUser = (name, isPaid) => { };
 setUser("rutvik", true);
 //object with function
 function SampleOfObj(surname, id) {

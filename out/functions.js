@@ -3,14 +3,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function Sum(a, b) {
     return a + b;
 }
-var val = function (first, second) {
+const val = (first, second) => {
     return "";
 };
 val("name", 4);
 Sum(5, 6);
-var marvel = ["Loki", "Venom", "spiderman"];
-marvel.map(function (marvel) {
-    return "marvel has ".concat(marvel);
+const marvel = ["Loki", "Venom", "spiderman"];
+marvel.map((marvel) => {
+    return `marvel has ${marvel}`;
 });
 //error 
 function HandelError(error) {

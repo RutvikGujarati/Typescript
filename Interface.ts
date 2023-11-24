@@ -13,13 +13,25 @@ interface Company {
     Testing(oneArgu: number, second: string): number // you can pass the arguments with the type declaration
 }
 
-const Employee: Company = {
+interface Company{// Double or ReOpening the interfaces
+    Name : string
+}
+
+interface AdminPannel extends Company{
+    superId?: string
+    SuperName ?: string 
+    security?: "password" | "2FA"  | "Finger"
+}
+
+const Employee: AdminPannel = {
     project: "POrtfolio", lang: "javascript", Weight: 46, langUsage: 4,
     Testing: () => {
         // let sum = a+b;
         // return sum;
         return 4;
-    }
+    },
+    Name: "gujarati" ,
+    security: "password" // Reopen interface uses in the same const Variable
 }
 
 
@@ -33,3 +45,5 @@ console.log(Employee.Testing)
 // }
 
 // calling()
+
+console.log()

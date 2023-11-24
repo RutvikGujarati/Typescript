@@ -1,5 +1,5 @@
 const Student1 = {
-    nmae: "Rutvik",
+    name: "Rutvik",
     Enroll: 211290107001,
     surname: "Gujarati"
 }
@@ -16,7 +16,7 @@ const createStd = (std: std2) => { }
 
 type User = {
     name: string
-    UPI?: boolean // not compulsory  for assiging when user is registering
+    UPI?: boolean // not compulsory  for assigning when user is registering
 }
 
 createStd({ name: "rutvik", surname: "gujarati", mobileNumber: 392832 })
