@@ -10,20 +10,20 @@ interface Company {
 
     // Testing: ()=> number
     //   Testing(): number 
-    Testing(oneArgu: number, second: string): number // you can pass the arguments with the type declaration
+    Testing(oneArgs: number, second: string): number // you can pass the arguments with the type declaration
 }
 
 interface Company{// Double or ReOpening the interfaces
     Name : string
 }
 
-interface AdminPannel extends Company{
+interface AdminPanel extends Company{
     superId?: string
     SuperName ?: string 
     security?: "password" | "2FA"  | "Finger"
 }
 
-const Employee: AdminPannel = {
+const Employee: AdminPanel = {
     project: "POrtfolio", lang: "javascript", Weight: 46, langUsage: 4,
     Testing: () => {
         // let sum = a+b;

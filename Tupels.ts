@@ -1,6 +1,6 @@
 let User : [number , string] = [12,"You@gmail.com"]// define type in array tuples
 
-User.push("true")// Tupels allows me to add string in array so, there is no imutability
+User.push("true")// Tuples allows me to add string in array so, there is no immutability
 
 type Student = [
     name: string,

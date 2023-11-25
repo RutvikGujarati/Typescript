@@ -17,7 +17,7 @@ function DoubleData (id: number | string){
    }
 }
 
-//Own type definataion
+//Own type definition
 
 let Movie: "Action" | "Horror" | 37
 

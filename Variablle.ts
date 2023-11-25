@@ -21,7 +21,7 @@ let WithoutType = false; // simple javascript
 
 // any
 
-let me : any;  // Type checking stopping with using any type declaration it is not for type decalration it is for just cheking that there is no type defining when variable is assigned or declaraed..
+let me : any;  // Type checking stopping with using any type declaration it is not for type declaration it is for just checking that there is no type defining when variable is assigned or declared..
 
 function giveMe(){
     return "me";
