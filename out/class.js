@@ -1,19 +1,22 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-class Subject {
-    constructor(a, b) {
-        let sum = a + b;
+var Subject = /** @class */ (function () {
+    function Subject(a, b) {
+        var sum = a + b;
         console.log(sum);
     }
-}
-class manager {
-    constructor(a, b) {
+    return Subject;
+}());
+var manager = /** @class */ (function () {
+    function manager(a, b) {
         this.a = a;
         this.b = b;
-        let sum = a + b;
+        var sum = a + b;
         console.log(sum);
     }
-}
-//create object to see the constructor values
-const obj1 = new manager(34, 555);
+    return manager;
+}());
+//create object to pass the constructor values
+var obj1 = new manager(34, 555);
+obj1.a = 5;
 console.log(obj1);
