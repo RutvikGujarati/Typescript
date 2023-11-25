@@ -1,8 +1,8 @@
 const enum After10th{
       Science = 2,
-      Commerse,
+      Commerce,
       Arts,
-      Deploma
+      Diploma
 }
 
 const obj = {

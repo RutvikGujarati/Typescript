@@ -18,7 +18,7 @@ const MlNUmbers: number[][] =[
 
 allHeros.push({
     superHero: "Ironmen",
-    Powers: "fliying",
+    Powers: "flying",
     ability: 10
 })
 
